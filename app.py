@@ -6,8 +6,8 @@ from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import PredictPipeline,CustomData
 
 
-application=Flask(__name__)
-app=application
+app=Flask(__name__)
+
 ## route for home page
 
 @app.route('/')
